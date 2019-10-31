@@ -35,7 +35,7 @@
                                 <constraints>
                                     <constraint firstAttribute="height" constant="60" id="LqF-vE-S05"/>
                                     <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="Dg1-Ba-753" secondAttribute="trailing" constant="14" id="kMd-pf-Bzy"/>
-                                    <constraint firstItem="Dg1-Ba-753" firstAttribute="leading" secondItem="22i-en-w2K" secondAttribute="leading" constant="14" id="tc9-hW-A1B"/>
+                                    <constraint firstItem="Dg1-Ba-753" firstAttribute="centerX" secondItem="22i-en-w2K" secondAttribute="centerX" id="tXF-72-ptQ"/>
                                     <constraint firstItem="Dg1-Ba-753" firstAttribute="top" secondItem="22i-en-w2K" secondAttribute="top" constant="14" id="y1z-HE-ctV"/>
                                 </constraints>
                             </view>
