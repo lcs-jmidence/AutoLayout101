@@ -73,13 +73,18 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="f1v-ue-Kl9">
-                                <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="f1v-ue-Kl9">
+                                <rect key="frame" x="40" y="0.0" width="335" height="812"/>
                                 <color key="backgroundColor" red="0.0" green="0.20697665636588836" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </view>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="f1v-ue-Kl9" firstAttribute="top" secondItem="Tx2-hL-t52" secondAttribute="bottom" constant="-44" id="DHf-Ac-fQX"/>
+                            <constraint firstItem="WGH-8z-A19" firstAttribute="top" secondItem="f1v-ue-Kl9" secondAttribute="bottom" constant="-34" id="bpg-0U-x2I"/>
+                            <constraint firstItem="f1v-ue-Kl9" firstAttribute="leading" secondItem="Aur-aK-0wt" secondAttribute="leading" constant="40" id="kJX-Tf-EB0"/>
+                            <constraint firstAttribute="trailing" secondItem="f1v-ue-Kl9" secondAttribute="trailing" id="xax-jg-loR"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="c4F-Di-stL" userLabel="First Responder" sceneMemberID="firstResponder"/>
