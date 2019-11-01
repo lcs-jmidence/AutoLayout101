@@ -10,6 +10,52 @@
     </dependencies>
     <scenes>
         <!--View Controller-->
+        <scene sceneID="w8H-mD-vfd">
+            <objects>
+                <viewController id="KLJ-h9-lie" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="JxF-Oj-Z8j"/>
+                        <viewControllerLayoutGuide type="bottom" id="23o-3I-8Hm"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="PuY-Ni-d9v">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Ag5-ay-Lmv" userLabel="blueView">
+                                <rect key="frame" x="250" y="0.0" width="125" height="406"/>
+                                <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hrG-2E-TIf" userLabel="redView">
+                                <rect key="frame" x="0.0" y="0.0" width="250" height="406"/>
+                                <color key="backgroundColor" red="1" green="0.0" blue="0.13876083880000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="t4L-PK-sHY" userLabel="purpleView">
+                                <rect key="frame" x="0.0" y="406" width="375" height="406"/>
+                                <color key="backgroundColor" red="0.57965358050000004" green="0.22201122600000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="Ag5-ay-Lmv" firstAttribute="width" secondItem="PuY-Ni-d9v" secondAttribute="width" multiplier="1:3" id="JTj-wl-WI1"/>
+                            <constraint firstItem="t4L-PK-sHY" firstAttribute="height" secondItem="PuY-Ni-d9v" secondAttribute="height" multiplier="1:2" id="OnK-wr-vbg"/>
+                            <constraint firstItem="hrG-2E-TIf" firstAttribute="height" secondItem="PuY-Ni-d9v" secondAttribute="height" multiplier="1:2" id="SWt-ox-SCI"/>
+                            <constraint firstItem="hrG-2E-TIf" firstAttribute="width" secondItem="PuY-Ni-d9v" secondAttribute="width" multiplier="2:3" id="Sqt-cw-64q"/>
+                            <constraint firstAttribute="trailing" secondItem="Ag5-ay-Lmv" secondAttribute="trailing" id="cZc-Sa-MCJ"/>
+                            <constraint firstItem="Ag5-ay-Lmv" firstAttribute="height" secondItem="PuY-Ni-d9v" secondAttribute="height" multiplier="1:2" id="hia-X9-02Q"/>
+                            <constraint firstItem="hrG-2E-TIf" firstAttribute="top" secondItem="PuY-Ni-d9v" secondAttribute="top" id="hse-H3-gPI"/>
+                            <constraint firstItem="t4L-PK-sHY" firstAttribute="width" secondItem="PuY-Ni-d9v" secondAttribute="width" id="qSm-y0-Ler"/>
+                            <constraint firstItem="hrG-2E-TIf" firstAttribute="leading" secondItem="PuY-Ni-d9v" secondAttribute="leading" id="ttN-HE-NRS"/>
+                            <constraint firstAttribute="bottom" secondItem="t4L-PK-sHY" secondAttribute="bottom" id="uPP-qT-KyX"/>
+                            <constraint firstItem="t4L-PK-sHY" firstAttribute="leading" secondItem="PuY-Ni-d9v" secondAttribute="leading" id="v8a-m8-qY2"/>
+                            <constraint firstItem="Ag5-ay-Lmv" firstAttribute="top" secondItem="PuY-Ni-d9v" secondAttribute="top" id="wrr-WO-OyV"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="f9t-8t-dwt" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="205.59999999999999" y="-358.37438423645324"/>
+        </scene>
+        <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Auto_Layout_101" customModuleProvider="target" sceneMemberID="viewController">
