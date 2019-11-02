@@ -10,6 +10,53 @@
     </dependencies>
     <scenes>
         <!--View Controller-->
+        <scene sceneID="mji-Pa-r94">
+            <objects>
+                <viewController id="1ai-lH-TmC" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="eTw-9G-Szh"/>
+                        <viewControllerLayoutGuide type="bottom" id="Lpk-gl-Rde"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="WHu-fU-33W">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="so5-Xp-Ps6">
+                                <rect key="frame" x="16" y="44" width="343" height="694"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Tp8-Sd-YPq">
+                                <rect key="frame" x="16" y="748" width="59" height="30"/>
+                                <state key="normal" title="Previous"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JO6-0k-m0r">
+                                <rect key="frame" x="167.66666666666666" y="748" width="40" height="30"/>
+                                <state key="normal" title="Share"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yqY-Gj-reD">
+                                <rect key="frame" x="333" y="748" width="32" height="30"/>
+                                <state key="normal" title="Next"/>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="Lpk-gl-Rde" firstAttribute="top" secondItem="JO6-0k-m0r" secondAttribute="bottom" id="7rZ-06-nj5"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="so5-Xp-Ps6" secondAttribute="trailing" id="A52-dz-0cO"/>
+                            <constraint firstItem="so5-Xp-Ps6" firstAttribute="top" secondItem="eTw-9G-Szh" secondAttribute="bottom" id="DCe-GJ-jzE"/>
+                            <constraint firstItem="yqY-Gj-reD" firstAttribute="trailing" secondItem="WHu-fU-33W" secondAttribute="trailing" constant="-10" id="POi-ja-mAk"/>
+                            <constraint firstItem="Lpk-gl-Rde" firstAttribute="top" secondItem="so5-Xp-Ps6" secondAttribute="bottom" constant="40" id="SDu-Gs-CBE"/>
+                            <constraint firstItem="Tp8-Sd-YPq" firstAttribute="leading" secondItem="WHu-fU-33W" secondAttribute="leadingMargin" id="Vvk-W0-Lgd"/>
+                            <constraint firstItem="so5-Xp-Ps6" firstAttribute="leading" secondItem="WHu-fU-33W" secondAttribute="leadingMargin" id="igK-Wv-ec3"/>
+                            <constraint firstItem="Lpk-gl-Rde" firstAttribute="top" secondItem="Tp8-Sd-YPq" secondAttribute="bottom" id="jSs-gw-UmT"/>
+                            <constraint firstItem="yqY-Gj-reD" firstAttribute="bottom" secondItem="Lpk-gl-Rde" secondAttribute="top" id="mwv-H7-hj0"/>
+                            <constraint firstItem="JO6-0k-m0r" firstAttribute="centerX" secondItem="WHu-fU-33W" secondAttribute="centerX" id="yoG-sm-REh"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="xAk-Sh-G5K" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="198" y="-1140"/>
+        </scene>
+        <!--View Controller-->
         <scene sceneID="w8H-mD-vfd">
             <objects>
                 <viewController id="KLJ-h9-lie" sceneMemberID="viewController">
@@ -86,25 +133,19 @@
                                 </constraints>
                             </view>
                             <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="We" lineBreakMode="tailTruncation" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="P2F-mh-jwf">
-                                <rect key="frame" x="191" y="270" width="71" height="60"/>
+                                <rect key="frame" x="60" y="376" width="71" height="60"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="48"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView hidden="YES" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="Heart.png" translatesAutoresizingMaskIntoConstraints="NO" id="EHc-8x-ShV" userLabel="Heart">
-                                <rect key="frame" x="270" y="270" width="60" height="60"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" secondItem="EHc-8x-ShV" secondAttribute="width" multiplier="1:1" id="891-AK-6Ir"/>
-                                </constraints>
-                            </imageView>
                             <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Swift" lineBreakMode="tailTruncation" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="a8w-NE-oVA">
-                                <rect key="frame" x="338" y="270" width="110" height="60"/>
+                                <rect key="frame" x="225" y="376" width="110" height="60"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="48"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <stackView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" axis="vertical" alignment="center" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="wOz-7m-IFc">
-                                <rect key="frame" x="40" y="386" width="78" height="150"/>
+                                <rect key="frame" x="16" y="52" width="78" height="150"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lUy-RV-6AU">
@@ -125,6 +166,12 @@
                                     </button>
                                 </subviews>
                             </stackView>
+                            <imageView hidden="YES" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="Heart.png" translatesAutoresizingMaskIntoConstraints="NO" id="EHc-8x-ShV" userLabel="Heart">
+                                <rect key="frame" x="139" y="376" width="60" height="60"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" secondItem="EHc-8x-ShV" secondAttribute="width" multiplier="1:1" id="891-AK-6Ir"/>
+                                </constraints>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
@@ -143,7 +190,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="302" y="389"/>
+            <point key="canvasLocation" x="301.60000000000002" y="388.66995073891627"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="Wgm-tQ-ALd">
